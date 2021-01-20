@@ -23,3 +23,12 @@ npm install --save-dev vue-style-loader css-loader style-loader sass-loader node
 // ビルド
 npx webpack --mode development
 ```
+
+## コンポーネント
+
+### くり返しコンポーネント
+追加、削除、並び替え機能を簡単に実装できるコンポーネント。<br>
+slotで繰り返す内容(input等)を渡し、リアクティブにデータの変更が可能。<br>
+<br>
+デモ<br>
+https://gyazo.com/23f00ea95a59ec45450a58956805f8b8
