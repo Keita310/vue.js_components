@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>vue.js_components</title>
+</head>
+<body>
+	<div id="app">
+		{{texts}}
+		<loop
+			ref="loop"
+			v-model="texts"
+			v-slot="props"
+			:limit="5"
+			:add_data="{text: ''}"
+		>
+			<label>テキスト編集</label>
+			<input v-model.lazy="props.data.text" type="text" class="form-control">
+		</loop>
+
+	</div>
+	<script src="./dist/main.js"></script>
+</body>
+</html>
