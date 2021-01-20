@@ -73,7 +73,6 @@ const _ = require('lodash');
  */
 export default {
 	name: 'Loop',
-	template: '#loop_component_template',
 	data: function () {
 		return {
 			// D&D時の掴んだバナーindex番号
