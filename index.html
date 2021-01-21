@@ -31,6 +31,30 @@
 		</textarea-html-placeholder>
 		<BR><BR><hr>
 
+
+		<h1>カスタムバリデーションinput</h1>
+		<form>
+			<label>全角5文字以内のカタカナ</label>
+			<custom-validation-input
+				v-model="input1"
+				:full_max_width="5"
+				:full_katakana="true"
+			>
+			</custom-validation-input>
+			<br>
+
+			<label>半角の数字</label>
+			<custom-validation-input
+				v-model="input2"
+				:half_number="true"
+			>
+			</custom-validation-input>
+			<br>
+
+			<button @click="send">送信</button>
+		</form>
+		<BR><BR><hr>
+
 	</div>
 	<script src="./dist/main.js"></script>
 </body>
