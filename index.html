@@ -6,7 +6,9 @@
 </head>
 <body>
 	<div id="app">
-		{{texts}}
+
+		<h1>くり返しコンポーネント</h1>
+		<div>texts：{{texts}}</div>
 		<loop
 			ref="loop"
 			v-model="texts"
@@ -17,6 +19,17 @@
 			<label>テキスト編集</label>
 			<input v-model.lazy="props.data.text" type="text" class="form-control">
 		</loop>
+		<BR><BR><hr>
+
+
+		<h1>HTML対応プレースホルダ</h1>
+		<div>textarea：{{textarea}}</div>
+		<textarea-html-placeholder
+			v-model="textarea"
+		>
+			<span style="color:red;">入力</span><br>してください
+		</textarea-html-placeholder>
+		<BR><BR><hr>
 
 	</div>
 	<script src="./dist/main.js"></script>
