@@ -34,8 +34,8 @@ slotで繰り返す内容(input等)を渡し、リアクティブにデータの
 https://gyazo.com/23f00ea95a59ec45450a58956805f8b8
 
 ### HTML対応プレースホルダTEXTAREAコンポーネント
-改行等が使えるhtml対応したプレースホルダが使えるtextareaコンポーネント。
-slotでプレースホルダの内容を渡す。
+改行等が使えるhtml対応したプレースホルダが使えるtextareaコンポーネント。<br>
+slotでプレースホルダの内容を渡す。<br>
 <br>
 デモ<br>
 https://gyazo.com/9bd0e81bef6f0df6c116570d8efb0628
