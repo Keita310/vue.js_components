@@ -31,14 +31,16 @@ npx webpack --mode development
 slotで繰り返す内容(input等)を渡し、リアクティブにデータの変更が可能。<br>
 <br>
 デモ<br>
-https://gyazo.com/23f00ea95a59ec45450a58956805f8b8
+![9bd0e81bef6f0df6c116570d8efb0628](https://user-images.githubusercontent.com/30276142/109814164-846fcc00-7c71-11eb-932e-c31052370efe.gif)
+
+
 
 ### HTML対応プレースホルダTEXTAREAコンポーネント
 改行等が使えるhtml対応したプレースホルダが使えるtextareaコンポーネント。<br>
 slotでプレースホルダの内容を渡す。<br>
 <br>
 デモ<br>
-https://gyazo.com/9bd0e81bef6f0df6c116570d8efb0628
+![23df3e64c77d239d8fb47ab77a7a9a31](https://user-images.githubusercontent.com/30276142/109814187-8b96da00-7c71-11eb-9acb-58a1920ff163.gif)
 
 
 ### カスタムHTML5バリデーションINPUTコンポーネント
@@ -52,4 +54,4 @@ https://gyazo.com/9bd0e81bef6f0df6c116570d8efb0628
 文字数制限を指定した場合、フォームの右端に最大数の案内が表示される。<br>
 <br>
 デモ<br>
-https://gyazo.com/23df3e64c77d239d8fb47ab77a7a9a31
+![23f00ea95a59ec45450a58956805f8b8](https://user-images.githubusercontent.com/30276142/109814196-8f2a6100-7c71-11eb-8856-ba1bc9b91026.gif)
