@@ -32,8 +32,7 @@ slotで繰り返す内容(input等)を渡し、リアクティブにデータの
 <br>
 デモ<br>
 ![9bd0e81bef6f0df6c116570d8efb0628](https://user-images.githubusercontent.com/30276142/109814164-846fcc00-7c71-11eb-932e-c31052370efe.gif)
-
-
+<br><br><br>
 
 
 ### HTML対応プレースホルダTEXTAREAコンポーネント
@@ -42,7 +41,7 @@ slotでプレースホルダの内容を渡す。<br>
 <br>
 デモ<br>
 ![23df3e64c77d239d8fb47ab77a7a9a31](https://user-images.githubusercontent.com/30276142/109814187-8b96da00-7c71-11eb-9acb-58a1920ff163.gif)
-
+<br><br><br>
 
 
 
