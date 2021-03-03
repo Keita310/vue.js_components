@@ -35,12 +35,15 @@ slotで繰り返す内容(input等)を渡し、リアクティブにデータの
 
 
 
+
 ### HTML対応プレースホルダTEXTAREAコンポーネント
 改行等が使えるhtml対応したプレースホルダが使えるtextareaコンポーネント。<br>
 slotでプレースホルダの内容を渡す。<br>
 <br>
 デモ<br>
 ![23df3e64c77d239d8fb47ab77a7a9a31](https://user-images.githubusercontent.com/30276142/109814187-8b96da00-7c71-11eb-9acb-58a1920ff163.gif)
+
+
 
 
 ### カスタムHTML5バリデーションINPUTコンポーネント
